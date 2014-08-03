@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'HelveticaWorldRegular';
+    src: url('../fonts/helveticaworld-regular.eot');
+    src: url('../fonts/helveticaworld-regular.eot') format('embedded-opentype'),
+         url('../fonts/helveticaworld-regular.woff') format('woff'),
+         url('../fonts/helveticaworld-regular.ttf') format('truetype'),
+         url('../fonts/helveticaworld-regular.svg#HelveticaWorldRegular') format('svg');
+}
+
+body{
+    font-family: 'HelveticaWorldRegular';
+    background: #E9E9E9 url(../imagens/bg02.png);  
+}
+
+/***** HEADER ******/
+header{
+    padding:0;
+    margin: 0;
+}
+
+header h1{
+    margin: 10px 0;
+}
+
+header h1 a{
+    display: block;
+    height: 135px;
+    width: 221px;
+    overflow: hidden;
+    text-indent: -500px;
+    background: url(../imagens/logo_p.png) no-repeat;
+}
+.sidebar-social {
+    margin: 10px 0;
+    padding: 0;
+    display: block;
+    height: 45px;
+    height: 135px;
+    float: right;
+}
+
+
+
+.facebook{ 
+    display: block;
+    background: url('../imagens/rede_topo.png') no-repeat 0px 0px;
+    overflow: hidden;
+    text-indent: -500px;
+    width: 45px; 
+    height: 45px; 
+    float: left;
+    margin: 10px;
+}
+.facebook:hover { 
+    display: block;
+    background-position: 0px -45px; 
+    width: 45px; 
+    height: 45px; 
+}
+
+.twitter{ 
+    display: block;
+    background: url('../imagens/rede_topo.png') no-repeat -45px 0px;
+    overflow: hidden;
+    text-indent: -500px;
+    width: 45px; 
+    height: 45px; 
+        float: left;
+            margin: 10px;
+}
+.twitter:hover { 
+    display: block;
+    background-position: -45px -45px; 
+    width: 45px; 
+    height: 45px; 
+}
+
+.google{ 
+    display: block;
+    background: url('../imagens/rede_topo.png') no-repeat -90px 0px;
+    overflow: hidden;
+    text-indent: -500px;
+    width: 46px; 
+    height: 45px; 
+        float: left;
+            margin: 10px;
+}
+.google:hover { 
+    display: block;
+    background-position: -90px -45px; 
+    width: 46px; 
+    height: 45px; 
+}
+
+/***** MENU ******/
+.navbar-inverse .navbar-nav > li > a{
+    font-size: 16px;
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{  
+    color: #999;
+}
+
+/***** CONTEUDO ******/
+.space{
+    background: #FFF;
+    margin-top: 24px;
+}
+
+.conteudo{
+    background: #FFF;
+}
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+}
+/***** BOX HOME ******/
+
+.box-titulo{
+    font-size: 18px;
+    color: #FFF;
+    background-color:  #3B7D48;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+.box-subtitulo{
+    font-size: 16px;
+    color: #3B7D48;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.box-imagens{
+   margin: 10px 0; 
+}
+
+.box-imagens img{
+       max-width: 100%;
+       min-width: 100%;
+}
+
+.box-texto{
+   text-align: justify;
+   margin-bottom: 10px;
+}
+
+.box-mais{
+   text-align: right; 
+}
+
+/***** RODAPE ******/
+footer{
+    margin: 0 auto;
+    height: 143px;
+}
+
+footer .rodape{
+    height: 143px;
+    padding: 35px 0;
+    background-color: #000;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+/***** PAGINAS INTERNAS ******/
+
+.titulopage{
+    color: #3B7D48;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.titulopage hr{
+    color: #3B7D48;
+    margin: 0 0 10px 0;
+    padding: 0;
+    border: solid thin #3B7D48; 
+}
+
+.conteudocurso h3{
+     color: #3B7D48;
+     margin-top: 0;
+     margin-left: -20px;
+}
+
+.conteudocurso h5{
+     color: #3B7D48;
+     font-weight: bold;
+}
+
+.conteudocurso p{
+     text-align: justify;
+}
+
+.conteudocurso img{
+    
+    alignment-adjust: middle;
+}
+
+.produto_titulo{
+    font-weight: bold;
+    color: #3B7D48;
+
+}
+
+.produto_descricao{
+    text-align: justify;
+}
+
+.ficha{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.ficha input.btn{
+ text-align: right;
+}
+
+.error, #error{
+    font-size: 12px;
+    font-weight: bold;
+    color: #E13300;
+}

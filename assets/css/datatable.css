@@ -1,0 +1,29 @@
+/* Pagination nested */
+li.prev.disabled:hover, li.prev:hover,
+li.next.disabled:hover, li.next:hover {
+	text-decoration: none !important;
+}
+
+li.prev.disabled{
+	background: url('../imagens/datatable/back_disabled.png') no-repeat top left;
+}
+
+li.prev{
+	background: url('../imagens/datatable/back_enabled.png') no-repeat top left;
+}
+
+li.prev:hover {
+	background: url('../imagens/datatable/back_enabled_hover.png') no-repeat top left;
+}
+
+li.next.disabled{
+	background: url('../imagens/datatable/forward_disabled.png') no-repeat top right;
+}
+
+li.next{
+	background: url('../imagens/datatable/forward_enabled.png') no-repeat top right;
+}
+
+li.next:hover {
+	background: url('../imagens/datatable/forward_enabled_hover.png') no-repeat top right;
+}
